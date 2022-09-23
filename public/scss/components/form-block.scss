@@ -1,0 +1,64 @@
+.form-block {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10vh;
+    margin-bottom: 50px;
+    padding: 15px;
+    color: $darky;
+    border-radius: 5px;
+    border: 1px solid $darky;
+    background-color: $medy;
+    h1, h3 {
+        font-weight: 500;
+        margin: 0 auto; 
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    form {
+        margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"] {
+      width: 100%;
+      margin-bottom: 5px;
+      height: 30px;
+      border-radius: 3px;
+      border: 2px solid transparent;
+      background-color: $lighty;
+      &:hover{
+            border: 2px solid $darky;
+            // height: 29px;
+        }
+      &:focus{
+            border: 2px solid $darky;
+        }
+    }
+    // input[type="email"]:focus,
+    // input[type="password"]
+    // input[type="checkbox"] {
+    //   -webkit-appearance: auto;
+    // }
+    // 
+    .checking {
+        margin-bottom: 15px;
+        color: $darky;
+    }
+    .quest {
+        margin-bottom: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: $darky;
+        font-style: italic;
+        &:hover {
+            color: white;
+        }
+    }
+    input {
+        -webkit-appearance: checkbox; 
+    }
+    
+  }

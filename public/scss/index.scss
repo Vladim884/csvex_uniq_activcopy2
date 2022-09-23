@@ -1,0 +1,21 @@
+@import './common/reset';
+@import './common/variables';
+@import './components/header';
+@import './components/footer';
+@import './components/slider_switch';
+@import './components/button';
+@import './components/form-block';
+@import './components/form-file';
+@import './components/section-tv';
+@import './components/upload1';
+@import './components/userlinks';
+@import './components/about';
+@import './components/cabinet-block';
+@import './components/payhistory';
+@import './components/error';
+@import './components/action-form';
+@import './components/cube';
+// record body must be lower than header!
+@import 'body';
+
+
