@@ -236,6 +236,7 @@ exports.login = async (req, res, next) => {
         if(balance < 0) balance = 0
         if (daysLeft !== user.daysLeft || balance !== user.balance) {
             let obj = {
+                status: 'admin',
                 daysLeft,
                 balance
             }
